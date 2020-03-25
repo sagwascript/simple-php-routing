@@ -1,16 +1,12 @@
-<?php
-if (isset($_GET['page'])) {
-  $page = $_GET['page'];
-  switch ($page) {
-  case 'about':
-    include 'about.php';
-    break;
-  case 'contact':
-    include 'contact.php';
-    break;
-  }
-} else {
-  include 'main.php';
-}
-
-?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+  <a href="about">Tentang</a>
+  <a href="contact">Kontak</a>
+  <h1>Halaman Utama</h1>
+</body>
+</html>
