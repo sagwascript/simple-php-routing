@@ -5,7 +5,7 @@
   <title></title>
 </head>
 <body>
-  <a href="index.php">Halaman Utama</a>
+  <a href="/">Halaman Utama</a>
   <h1>Halaman About</h1>
 </body>
 </html>
